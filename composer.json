@@ -1,0 +1,31 @@
+{
+    "name": "5ichong/umq-sdk",
+    "description": "UCloud message queue",
+    "keywords": [
+        "message queue",
+        "message",
+        "queue"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Weijian Zhang",
+            "email": "phperweb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aichong\\": "src",
+            "Aichong\\tests\\": "tests"
+        }
+    },
+    "minimum-stability": "stable"
+}
